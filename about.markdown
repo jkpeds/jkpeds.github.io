@@ -10,7 +10,7 @@ He has been practicing pediatrics since 1998 and provides a professional and nur
 {% endcapture %}
 
 {% include column-2h.html
-    left-image='/assets/Joseph-Kilimnick-headshot.png' 
+    left-image='/assets/Joseph-Kilimnick-headshot-2.png' 
     left-alt='Joseph Kilimnick headshot' 
     left-width='40%'
     right-content=include_content
