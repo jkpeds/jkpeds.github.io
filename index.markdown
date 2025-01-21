@@ -18,9 +18,9 @@ What makes Kilimnick Pediatrics special?
 {% endcapture %}
 
 {% include column-2h.html 
+    left-content=include_content
     right-image='/assets/Joseph-Kilimnick-headshot.png' 
     right-alt='Joseph Kilimnick headshot' 
-    left-content=include_content 
+    right-width='40%'
 %}
-
 
