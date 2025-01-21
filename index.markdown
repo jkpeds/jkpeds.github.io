@@ -27,11 +27,15 @@ layout: page
 
 
 {% capture reviews_button %}
-    {% include fancy-button.html 
-        text='Read reviews'
-        href='https://www.google.com/search?client=firefox-b-1-d&q=Joseph+Bernard+Kilimnick%2C+MD#lrd=0x89d6b5a19803a0c5:0x6159c799098020aa,1,,,,'
-        new-window='yes'
-    %}
+    <br>
+    <br>
+    <div style="text-align: center;">
+        {% include fancy-button.html 
+            text='Read reviews'
+            href='https://www.google.com/search?client=firefox-b-1-d&q=Joseph+Bernard+Kilimnick%2C+MD#lrd=0x89d6b5a19803a0c5:0x6159c799098020aa,1,,,,'
+            new-window='yes'
+        %}
+    </div>
 {% endcapture %}
 
 
