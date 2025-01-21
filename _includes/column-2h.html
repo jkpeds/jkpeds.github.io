@@ -1,7 +1,7 @@
 <div style="clear: both; overflow: auto;">
   <div style="float: left; width: 50%; padding-right: 20px; box-sizing: border-box;">
     {% if include.left-content -%}
-      <p>{{ include.left-content }}</p>
+      <p>{{ include.left-content | markdownify }}</p>
     {%- endif %}
     {% if include.left-image -%}
       <img src="{{ include.left-image }}" alt="{{ include.left-alt }}" style="max-width: 100%; height: auto;">
@@ -9,7 +9,7 @@
   </div>
   <div style="float: right; width: 50%; text-align: center;">
     {% if include.right-content -%}
-      <p>{{ include.right-content }}</p>
+      <p>{{ include.right-content | markdownify }}</p>
     {%- endif %}
     {% if include.right-image -%}
       <img src="{{ include.right-image }}" alt="{{ include.right-alt }}" style="max-width: 100%; height: auto;">

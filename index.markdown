@@ -17,4 +17,11 @@ What makes Kilimnick Pediatrics special?
 - Patients and parents are all treated with respect and empathy.
 {% endcapture %}
 
-{% include column-2h.html right-image='/assets/Joseph-Kilimnick-headshot.png' right-alt='Joseph Kilimnick headshot' left-content=include_content %}
+{% include column-2h.html 
+    right-image='/assets/Joseph-Kilimnick-headshot.png' 
+    right-alt='Joseph Kilimnick headshot' 
+    left-content=include_content 
+%}
+
+
+{%- endif %}
