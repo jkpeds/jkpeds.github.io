@@ -6,6 +6,9 @@
     {% if include.left-image -%}
       <img src="{{ include.left-image }}" alt="{{ include.left-alt }}" style="max-width: 100%; height: auto;">
     {%- endif %}
+    {% if include.right-content -%}
+      {{ include.left-suffix }}
+    {%- endif %}
   </div>
   <div style="float: right; width: {% if include.right-width -%}{{ include.right-width }}{% else %}50%{%- endif %}; font-size: 1.125em;">
     {% if include.right-content -%}
@@ -13,6 +16,9 @@
     {%- endif %}
     {% if include.right-image -%}
       <img src="{{ include.right-image }}" alt="{{ include.right-alt }}" style="max-width: 100%; height: auto;">
+    {%- endif %}
+    {% if include.right-content -%}
+      {{ include.right-suffix }}
     {%- endif %}
   </div>
 </div>

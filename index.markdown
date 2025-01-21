@@ -25,11 +25,23 @@ layout: page
 - Patients and parents are all treated with respect and empathy.
 {% endcapture %}
 
+
+{% capture reviews_button %}
+    {% include fancy-button.html 
+        text='Read reviews'
+        href='https://www.google.com/search?client=firefox-b-1-d&q=Joseph+Bernard+Kilimnick%2C+MD#lrd=0x89d6b5a19803a0c5:0x6159c799098020aa,1,,,,'
+        new-window='yes'
+    %}
+{% endcapture %}
+
+
+
 {% include column-2h.html 
     left-content=include_content
     right-image='/assets/Joseph-Kilimnick-headshot.png' 
     right-alt='Joseph Kilimnick headshot' 
     right-width='40%'
     right-content='<br>'
+    right-suffix=reviews_button
 %}
 
