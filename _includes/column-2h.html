@@ -1,15 +1,15 @@
 <div style="clear: both; overflow: auto;">
-  <div style="float: left; width: {% if include.left-width -%}{{ include.left-width }}{% else %}50%{%- endif %}; padding-right: 20px; box-sizing: border-box;">
+  <div style="float: left; width: {% if include.left-width -%}{{ include.left-width }}{% else %}50%{%- endif %}; font-size: 1.125em; box-sizing: border-box;">
     {% if include.left-content -%}
-      <p>{{ include.left-content | markdownify }}</p>
+      {{ include.left-content | markdownify }}
     {%- endif %}
     {% if include.left-image -%}
       <img src="{{ include.left-image }}" alt="{{ include.left-alt }}" style="max-width: 100%; height: auto;">
     {%- endif %}
   </div>
-  <div style="float: right; width: {% if include.right-width -%}{{ include.right-width }}{% else %}50%{%- endif %};">
+  <div style="float: right; width: {% if include.right-width -%}{{ include.right-width }}{% else %}50%{%- endif %}; font-size: 1.125em;">
     {% if include.right-content -%}
-      <p>{{ include.right-content | markdownify }}</p>
+      {{ include.right-content | markdownify }}
     {%- endif %}
     {% if include.right-image -%}
       <img src="{{ include.right-image }}" alt="{{ include.right-alt }}" style="max-width: 100%; height: auto;">
