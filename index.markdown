@@ -30,5 +30,6 @@ layout: page
     right-image='/assets/Joseph-Kilimnick-headshot.png' 
     right-alt='Joseph Kilimnick headshot' 
     right-width='40%'
+    right-content='<br>'
 %}
 
