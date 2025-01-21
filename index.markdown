@@ -8,12 +8,12 @@ layout: page
 {% capture include_content %}
 What makes Kilimnick Pediatrics special?
 
-- Warm, friendly, small office field, very family oriented.
-- Offers same or next day appointments for urgent concerns.
+- We are a warm, friendly, small office, very family oriented.
+- We offer same or next day appointments for urgent concerns.
 - When calling, you speak directly to someone in the office and not a call-center.
-- Timely in responding to requests for specialist referrals and copies of health records, immunizations, etc..
-- Welcomes out-of-town college students in need of a local physician to treat chronic medical issues (including prescribing psychiatric, and ADHD medications).
-- Accepts most health insurance plans.
+- We are timely in responding to requests for specialist referrals, copies of health records, immunizations, etc.
+- We welcome out-of-town college students in need of a local physician to treat chronic medical issues (including prescribing psychiatric and ADHD medications).
+- We accept most health insurance plans.
 - Patients and parents are all treated with respect and empathy.
 {% endcapture %}
 
