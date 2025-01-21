@@ -14,14 +14,16 @@
 .JBP-BoxButton {
     cursor: pointer;
     font-weight: bold;
+    border-radius: 10px;
     background: var(--jbp-rich-blue);
     border: 1px solid var(--jbp-rich-blue);
-    color: var(--jbp-pure-white);
+    color: var(--jbp-pure-white) !important;
     padding: var(--jbp-btn-padding);
+    transition: 0.3s;
 }
 
 .JBP-BoxButton:hover {
-    color: var(--jbp-rich-blue);
+    color: var(--jbp-rich-blue) !important;
     background: var(--jbp-pure-white);
-    transition: 0.2s;
+    transition: 0.3s;
 }

@@ -29,6 +29,9 @@ layout: page
 {% capture reviews_button %}
     <br>
     <br>
+    <br>
+    <br>
+    <br>
     <div style="text-align: center;">
         {% include fancy-button.html 
             text='Read reviews'
